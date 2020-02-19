@@ -39,7 +39,7 @@ export const StyledSearchInput = Styled.input`
     box-sizing: border-box;
     background-color: ${colors.blockLight};
     font-family: ${fonts.secondary};
-    color: ${colors.gray};
+    color: ${colors.white};
     border: none;
     outline: none;
     font-size: 16px;
@@ -62,11 +62,7 @@ export const StyledSearchButton = Styled.button`
         cursor: pointer;
 
         > path {
-            color: ${colors.gray};
-        }
-
-        &:hover > path {
-            color: ${colors.black};
+            color: ${colors.white};
         }
     }  
 `

@@ -15,7 +15,7 @@ class SearchBar extends Component {
             <StyledSearchContainer>
                 <StyledSearchLogo src={Logo} alt="logo" />
                 <StyledSearchForm>
-                    <StyledSearchInput placeholder="Search" value={this.props.search} onChange={this.handleChange}/>
+                    <StyledSearchInput placeholder="Enter a search term..." value={this.props.search} onChange={this.handleChange}/>
                     <StyledSearchButton as="button"><FontAwesomeIcon icon={faSearch} /></StyledSearchButton>
                 </StyledSearchForm>
             </StyledSearchContainer>

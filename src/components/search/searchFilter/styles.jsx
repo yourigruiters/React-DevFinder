@@ -24,7 +24,8 @@ export const StyledFilterDiv = Styled.div`
     padding: 10px;
     box-sizing: border-box;
     border-radius: 6px;
-    border: 2px solid rgba(249, 142, 0, 1.0);
+    border: 2px solid ${colors.blockDark};
+    background-color: ${colors.blockLight};
 
     &:before {
         content: "";
@@ -60,7 +61,7 @@ export const StyledFilterOptions = Styled.div`
 export const StyledFilterOption = Styled.input`
     color: ${colors.white};
     margin: 8px 12px 8px 0px;
-    background-color: red;
+    background-color: ${props => props.selected ? colors.orange : colors.blockDark};;
     width: 11px;
     height: 11px;
 
@@ -71,7 +72,7 @@ export const StyledFilterOption = Styled.input`
         top: -1px;
         left: 0px;
         position: relative;
-        background-color: ${props => props.selected ? colors.red : colors.blockDark};
+        background-color: ${props => props.selected ? colors.orange : colors.blockDark};
         content: '';
         display: inline-block;
         visibility: visible;
@@ -84,10 +85,14 @@ export const StyledFilterOption = Styled.input`
         top: -1px;
         left: 0px;
         position: relative;
-        background-color: ${colors.red};
+        background-color: ${colors.orange};
         content: '';
         display: inline-block;
         visibility: visible;
+    }
+
+    &.placeholder {
+        color: ${colors.white};
     }
 `
 

@@ -23,14 +23,16 @@ class Search extends Component {
   changeSearch = (content) => {
     content = content.toLowerCase();
     this.setState({
-      search: content
+      search: content,
+      currentPage: 1
     })
   }
 
   changeFilter = (content) => {
     content = content.toLowerCase();
     this.setState({
-      filter: content
+      filter: content,
+      currentPage: 1
     })
   }
 

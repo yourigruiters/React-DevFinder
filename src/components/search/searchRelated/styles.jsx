@@ -18,14 +18,14 @@ export const StyledRelatedList = Styled.ul`
 export const StyledRelatedListItem = Styled.li`
     list-style-type: none;
     margin: 6px 0px;
-    color: ${colors.red};
+    color: ${colors.blockLight};
     font-family: ${fonts.primary};
     font-size: 14px;       
     text-decoration: none; 
     cursor: pointer;
 
     &:hover {
-        color: #a8152d;
+        color: ${colors.blockDark};
     }
 `
 

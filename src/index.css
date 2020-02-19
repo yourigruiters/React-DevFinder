@@ -8,11 +8,12 @@
 }
 
 html {
-  background-color: #2a2c2f;
+  background-color: #1B263B;
 }
 
 body {
   width: 100%;
   max-width: 1450px;
   margin: auto;
+  overflow-y: scroll;
 }

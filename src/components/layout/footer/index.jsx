@@ -10,8 +10,8 @@ const Footer = () => {
                 <Link to="/Privacy">Privacy</Link>
             </StyledOptionsLeft>
             <StyledOptionsRight>
-                <Link to="/About">About Skilldar</Link>
-                <Link to="/GetStarted">Get Started</Link>
+                <Link to="/About">About DevFinder</Link>
+                <Link to="/">Find developers</Link>
             </StyledOptionsRight>
         </StyledFooter>
     )

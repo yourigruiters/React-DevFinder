@@ -24,7 +24,7 @@ export const StyledDefinitionTitle = Styled.p`
 `
 
 export const StyledDefinitionParagraph = Styled.p`
-    color: ${colors.red};
+    color: ${colors.orange};
     font-family: ${fonts.primary};
     font-size: 14px;
 `

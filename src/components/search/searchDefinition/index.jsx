@@ -4,8 +4,8 @@ import { StyledDefinitionTitle, StyledDefinitionParagraph, StyledDefinition } fr
 const SearchDefinition = () => {
     return (
         <StyledDefinition>
-            <StyledDefinitionTitle>Definition</StyledDefinitionTitle>
-            <StyledDefinitionParagraph>#VFXengineers are beings who create illusions or visual tricks used in the film, television, theatre, video game and similar  industries to simulate the imagined events in a story or virtual world.</StyledDefinitionParagraph>
+            <StyledDefinitionTitle>Definition of search</StyledDefinitionTitle>
+            <StyledDefinitionParagraph>Navigate this page to find front-end, backend and full-stack developers you can contact to create your personal websites or/and applications. You can filter the developers on a personal search tag, related tags and locations.</StyledDefinitionParagraph>
         </StyledDefinition>
     )
 }

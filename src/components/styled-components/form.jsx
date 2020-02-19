@@ -41,7 +41,7 @@ export const StyledLabel = Styled.label`
 `
 
 export const StyledLabelSpan = Styled.span`
-    color: ${colors.red};
+    color: ${colors.orange};
 `
 
 export const StyledInput = Styled.input`
@@ -49,17 +49,17 @@ export const StyledInput = Styled.input`
     width: 100%;
     height: 44px;
     margin: 10px 0px 20px;
-    border: 1px solid ${colors.blockLight};
+    border: 1px solid ${colors.black};
     border-radius: 3px;
-    background: ${colors.black};
-    color: ${colors.red};
+    background: ${colors.blockLight};
+    color: ${colors.white};
     font-size: 14px;
     line-height: 44px;
     text-indent: 10px;
     outline: none;
 
     &:focus {
-        color: ${colors.red};
+        color: ${colors.white};
         border: 1px solid #c9c8c9;
         box-shadow: 0 0 3px rgba(0,0,0,.2);
     }
@@ -72,7 +72,7 @@ export const StyledButton = Styled.button`
     padding: 0 10px !important;
     border: 0;
     border-radius: 3px;
-    background: ${colors.red};
+    background: ${colors.orange};
     color: ${colors.white};
     font-size: 14px;
     line-height: 44px !important;

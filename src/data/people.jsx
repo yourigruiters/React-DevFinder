@@ -5,7 +5,7 @@ export const people = [
         city: "Berlin",
         country: "Germany",
         description: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        image: "https://via.placeholder.com/600/92c952",
+        image: "https://i.picsum.photos/id/237/500/500.jpg",
         price: "156",
         skills: "HTML, Bootstrap, React, SQL, Javascript"
     },{
@@ -14,7 +14,7 @@ export const people = [
         city: "Stockholm",
         country: "Sweden",
         description: "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-        image: "https://via.placeholder.com/600/771796",
+        image: "https://i.picsum.photos/id/236/500/500.jpg",
         price: "283",
         skills: "React, CSS, SCSS, Vue, Angular"
     },{
@@ -23,7 +23,7 @@ export const people = [
         city: "New York",
         country: "United States",
         description: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
-        image: "https://via.placeholder.com/600/d32776",
+        image: "https://i.picsum.photos/id/235/500/500.jpg",
         price: "482",
         skills: "Angular, HTML, Bootstrap, Javascript"
     },{
@@ -32,7 +32,7 @@ export const people = [
         city: "Dallas",
         country: "United States",
         description: "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
-        image: "https://via.placeholder.com/600/f66b97",
+        image: "https://i.picsum.photos/id/234/500/500.jpg",
         price: "172",
         skills: "CSS, SCSS, Javascript"
     },{
@@ -41,7 +41,7 @@ export const people = [
         city: "Munich",
         country: "Germany",
         description: "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
-        image: "https://via.placeholder.com/600/56a8c2",
+        image: "https://i.picsum.photos/id/233/500/500.jpg",
         price: "482",
         skills: "React, Angular, Bootstrap, Vue, HTML"
     },{
@@ -50,7 +50,7 @@ export const people = [
         city: "Detroit",
         country: "United States",
         description: "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
-        image: "https://via.placeholder.com/600/b0f7cc",
+        image: "https://i.picsum.photos/id/232/500/500.jpg",
         price: "472",
         skills: "HTML, CSS, React, Vue"
     },{
@@ -59,7 +59,7 @@ export const people = [
         city: "Malmo",
         country: "Sweden",
         description: "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
-        image: "https://via.placeholder.com/600/54176f",
+        image: "https://i.picsum.photos/id/231/500/500.jpg",
         price: "352",
         skills: "Vue, HTML, CSS"
     },{
@@ -68,7 +68,7 @@ export const people = [
         city: "Stockholm",
         country: "Sweden",
         description: "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
-        image: "https://via.placeholder.com/600/51aa97",
+        image: "https://i.picsum.photos/id/230/500/500.jpg",
         price: "141",
         skills: "HTML, CSS, Javascript"
     },{
@@ -77,7 +77,7 @@ export const people = [
         city: "Gotenburg",
         country: "Sweden",
         description: "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
-        image: "https://via.placeholder.com/600/810b14",
+        image: "https://i.picsum.photos/id/229/500/500.jpg",
         price: "167",
         skills: "Bootstrap, Angular, React, Javascript, SCSS"
     },{
@@ -86,7 +86,7 @@ export const people = [
         city: "Las Vegas",
         country: "United States",
         description: "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
-        image: "https://via.placeholder.com/600/1ee8a4",
+        image: "https://i.picsum.photos/id/228/500/500.jpg",
         price: "482",
         skills: "HTML, CSS, SCSS"
     }

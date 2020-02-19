@@ -5,9 +5,9 @@ export const StyledFooter = Styled.footer`
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 52px;
+    height: auto;
     background-color: ${colors.black};
-    padding: 8px 20px;
+    padding: 8px 20px 5px;
     box-sizing: border-box;
     border-style: solid;
     border-width: 2px;

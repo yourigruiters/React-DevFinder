@@ -18,7 +18,7 @@ class SearchFilter extends Component {
 
         return (
             <StyledFilterMain>
-                <StyledFilterTitle>Sort results</StyledFilterTitle>
+                <StyledFilterTitle>Filter locations</StyledFilterTitle>
                 <StyledFilterDiv dropdown={dropdown} onClick={this.handleClick}>
                     <StyledFilterText>Location</StyledFilterText>
                 </StyledFilterDiv>

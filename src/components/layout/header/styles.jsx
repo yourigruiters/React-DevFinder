@@ -5,9 +5,9 @@ export const StyledHeader = Styled.header`
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 50px;
+    height: auto;
     background-color: ${colors.black};
-    padding: 8px 20px;
+    padding: 8px 20px 5px;
     box-sizing: border-box;
     border-style: solid;
     border-width: 2px;
@@ -49,22 +49,8 @@ export const StyledPageDiv = Styled.div`
 
 export const StyledOptions = Styled.div`
     width: auto;
-    height: 30px;
-
-    svg {
-        font-size: 24px;
-        margin-top: 0px;
-        margin-right: 8px;
-        cursor: pointer;
-
-        > path {
-            color: ${colors.gray};
-        }
-
-        &:hover > path {
-            color: ${colors.blockLight};
-        }
-    }   
+    height: auto;
+    margin-top: 6px;
 
     a {
         position: relative;
@@ -79,7 +65,7 @@ export const StyledOptions = Styled.div`
         > svg {
             position: absolute;
             font-size: 24px;
-            margin-top: 4px;
+            margin-top: -2px;
             margin-left: 6px;
         }
 
