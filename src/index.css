@@ -17,3 +17,7 @@ body {
   margin: auto;
   overflow-y: scroll;
 }
+
+a {
+  text-decoration: none;
+}

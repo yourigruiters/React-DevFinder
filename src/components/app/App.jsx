@@ -4,6 +4,7 @@ import Header from '../layout/header'
 import Footer from '../layout/footer'
 import { StyledMain } from '../styled-components/main'
 import Home from '../pages/Search'
+import Developer from '../developer/'
 import Login from '../pages/Login'
 import Terms from '../pages/Terms'
 import Privacy from '../pages/Privacy'
@@ -28,6 +29,7 @@ class App extends Component {
         <StyledMain>
           <Switch>
             <Route path="/" exact render={(props) => <Home {...props} people={this.state.people} /> } />
+            <Route path="/Developer/:id" exact render={(props) => <Developer {...props} people={this.state.people} /> } />
             <Route path="/Login" exact component={Login} />
             <Route path="/Terms" exact component={Terms} />
             <Route path="/Privacy" exact component={Privacy} />

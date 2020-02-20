@@ -1,3 +1,4 @@
-## Skilldar Assignment
+## DevFinder Application
 
-Skilldar Assignment
+Previous company assignment changed to personal application.
+Using: React, React-router-dom, Styled-components, React-FontAwesome
