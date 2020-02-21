@@ -1,4 +1,17 @@
-## DevFinder Application
+![Logo YG](http://github.yourigruiters.com/images/logo.png)
 
-Previous company assignment changed to personal application.
-Using: React, React-router-dom, Styled-components, React-FontAwesome
+# DevFinder Application
+DevFinder application - Find your project developer using Tags and locations.
+
+## Used Modules
+
+* Create-react-app
+* React-router-dom
+* React-FontAwesome
+* Styled-components
+* Flexbox
+
+## Images 
+
+![Image1](http://github.yourigruiters.com/images/devfinder1.png)
+<!-- ![Image2](http://www.yourigruiters.com/images/logo/logo-150.png) -->
