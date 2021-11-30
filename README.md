@@ -1,6 +1,6 @@
 # DevFinder Application
 
-DevFinder application - Find your project developer using Tags and locations.
+DevFinder application - Find developers for your project using tags/input and locations.
 
 ## Used Modules
 
