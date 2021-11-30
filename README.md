@@ -9,3 +9,7 @@ DevFinder application - Find your project developer using Tags and locations.
 - React-FontAwesome
 - Styled-components
 - Flexbox
+
+##### Landing page using filters
+
+![Landing](/readme_screenshots/devfinder.png)
